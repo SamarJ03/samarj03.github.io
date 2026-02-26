@@ -1,0 +1,93 @@
+/*******************************************************************************
+ * Literature and technical writing styles
+ ******************************************************************************/
+
+@use "variables" as v;
+
+.literature {
+  margin-top: 2rem;
+
+  h1 {
+    color: var(--global-theme-color);
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+  h2 {
+    margin-bottom: 1rem;
+
+    span {
+      font-size: 1.5rem;
+    }
+  }
+
+  .literature-entry {
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--global-divider-color);
+    padding-bottom: 1.5rem;
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    .badge {
+      background-color: var(--global-theme-color);
+      color: white;
+      padding: 0.25rem 0.75rem;
+      border-radius: 1rem;
+      font-size: 0.8rem;
+      font-weight: 500;
+    }
+
+    .title {
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+      line-height: 1.4;
+
+      a {
+        color: var(--global-text-color);
+        text-decoration: none;
+
+        &:hover {
+          color: var(--global-theme-color);
+          text-decoration: underline;
+        }
+      }
+    }
+
+    .author {
+      color: var(--global-text-color-light);
+      margin-bottom: 0.75rem;
+      font-size: 0.9rem;
+
+      em {
+        font-style: normal;
+        font-weight: 500;
+      }
+    }
+
+    .summary {
+      color: var(--global-text-color-light);
+      line-height: 1.5;
+      margin-top: 0.5rem;
+    }
+  }
+}
+
+// Dark mode adjustments
+html.theme--dark {
+  .literature {
+    .literature-entry {
+      .author {
+        color: var(--global-text-color-light);
+      }
+
+      .summary {
+        color: var(--global-text-color-light);
+      }
+    }
+  }
+}

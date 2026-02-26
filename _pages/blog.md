@@ -1,9 +1,9 @@
 ---
 layout: default
-permalink: /articles/
-title: articles
-nav: true
-nav_order: 4
+permalink: /writing/
+title: writing
+nav: false
+# nav_order: 3
 pagination:
   enabled: true
   collection: posts

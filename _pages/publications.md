@@ -7,14 +7,11 @@ nav: false
 # nav_order: 2
 ---
 
-<!-- _pages/publications.md -->
+<!-- Publications page disabled - using custom literature page instead -->
+<!-- Redirect users to the literature page -->
 
-<!-- Bibsearch Feature -->
+<script>
+window.location.href = "/literature/";
+</script>
 
-{% include bib_search.liquid %}
-
-<div class="publications">
-
-{% bibliography %}
-
-</div>
+<p>Redirecting to <a href="/literature/">literature page</a>...</p>

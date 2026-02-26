@@ -4,11 +4,12 @@
 
 linkedin_username: samar-josyula
 github_username: samarj03
-spotify_id: samarj13
-# lastfm_id: samarj03
-letterboxd_id: samarj03
 email: samarjosyula@outlook.com # your email address
 cv_pdf: /assets/pdf/svj-resume.pdf # path to your CV PDF file
+
+# spotify_id: samarj13
+# lastfm_id: samarj03
+# letterboxd_id: samarj03
 
 # inspirehep_id: 1010907 # Inspire HEP author ID
 # rss_icon: true # comment this line to hide the RSS icon

@@ -2,22 +2,16 @@
 layout: page
 permalink: /literature/
 title: literature
-description: 
+description: These are some things I've written..
 nav: true
-nav_order: 2
+nav_order: 5
 ---
 
-<!-- _pages/publications.md -->
+{% include bib_search.liquid %}
 
-<!-- Bibsearch Feature -->
-
-<!-- {% include bib_search.liquid %} -->
-
-<!-- <div class="publications"> -->
-
-<!-- {% bibliography %} -->
-
-<!-- </div> -->
+<div class="publications">
+{% bibliography %}
+</div>
 
 
 
